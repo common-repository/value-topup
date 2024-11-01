@@ -1,0 +1,98 @@
+          .img-fluid{
+                height: 50px;
+                width: 100px;
+            }
+            /* width */
+            ::-webkit-scrollbar {
+              width: 5px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+              background: #f1f1f1; 
+            }
+             
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+              /*background: #888; */
+              background: #eaf1f5;
+            }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+              background: #555; 
+            }
+
+            .opretor-blog:hover{
+                cursor: pointer;
+            }
+            .opretor-blog.active{
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                background-color: #3b3131;
+                padding: 2px 2px 2px 2px;
+                color: white;
+            }
+
+            #value_topup_content_box .modal-box{
+                /*position: absolute !important;*/
+                bottom: 10px !important;
+                right: 10px !important;
+                float: right;
+            }
+            #value_topup_content_box .img-fluid {
+                max-width: none !important;
+            }
+            #value_topup_content_box .opretor-blog-body{
+                margin-left: 9px;
+            }
+            #inner label{
+                padding: 5px 5px 5px 5px !important;
+            }
+            #outer{
+                margin-top: -37px !important;
+            }
+            .pickval.active{
+                background-color: blue;
+                 width: 90px;
+                 
+            }
+            .pickval{
+                    width: 90px;
+            }
+            #pp{
+                float: right;
+                bottom: 15px;
+                margin-top: 28px;
+            }
+            .error{
+                color: red;
+            }
+            .dropdown-menu{
+                height: auto;
+                max-height: 150px;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+            #cc{
+                background-color: white;
+            }
+            .input_id{ 
+                border-right: none;  
+                border:none; 
+                outline: transparent!important;
+            }
+
+
+            /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+
+            /* Firefox */
+            input[type=number] {
+              -moz-appearance: textfield;
+            }
